@@ -1,0 +1,57 @@
+.About-Section5{
+	background-image: url(Images/about_us.png);
+	background-size: cover;
+	height: auto;
+}
+.About-Section5 h3{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.About-Section5 h2{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+}
+.About-Section5-Cards{
+	width: 70%;
+}
+.About-Section5-Cards h4{
+	font-size: 20px;
+	line-height: 28px;
+	color: #172541;
+	font-weight: 700;
+	font-family: "Poppins",sans-serif;
+	margin-bottom: 10px;
+}
+.About-Section5-Cards h6{
+	font-size: 13px;
+	line-height: 24px;
+	color: #565872;
+	font-family: "Rubik",sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.About-Section5-Cards a{
+	text-decoration: none;
+}
+.About-Section5-Cards-icons{
+	display: none;
+}
+.About-Section5-Cards:hover .About-Section5-Cards-icons{
+	display: block;	
+}
+.About-Section5-Cards-icon{
+	border-radius: 40px; 
+	padding: 5px;
+	height: 32px;
+	width: 32px;
+}
+.About-Section5-Cards-icon a{
+	color: white;
+}

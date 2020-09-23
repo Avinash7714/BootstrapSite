@@ -1,0 +1,750 @@
+													/* ---------HEADER--------- */
+.header{
+	font-family: "Rubik",Sans-serif;
+}
+.header-text{
+	font-size: 14px;
+	text-decoration: none;
+}
+.header-icons i{
+	color: #565872;
+}
+.header-icons i:hover{
+	color: #3763eb;
+}
+													/* ---------NAVBAR--------- */
+.navbar{
+	font-family: "Rubik",Sans-serif;
+}
+.navlist a{
+	color: black;
+	text-decoration: none;
+}
+.navlist a:hover{
+	color: #3763eb;
+}
+													/* ---------SECTION1--------- */
+.Section1_carousel1{
+	background-image: url(Images/slider_img_11.png);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.Section1_carousel2{
+	background-image: url(Images/slider_img_21.png);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.Section1-carousel-heading{
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+.Section1-carousel-paragraph{
+	font-size: 18px;
+	font-family: Rubik
+}
+.Section1-carousel-button{
+	height: 50px;
+	width: 150px;
+	font-size: 15px;
+	font-family: Rubik;
+}
+.Section1-cards h4{
+	font-family: "Poppins",Sans-serif;
+	font-size: 22px;
+	line-height: 30px;
+}
+.Section1-cards p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+}
+.Section1-cards i:hover{
+	animation: shake 0.5s;
+	transition: 1s;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+													/* ---------SECTION2--------- */
+.Section2-modal{
+	margin-top: 140px; 
+	height: 70px; 
+	width: 70px;  
+	padding-top: 23px;
+	cursor: pointer;
+	text-align: center;
+}
+.Section2-text h6{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+}
+.Section2-text h2{
+	color: #172541;
+	font-family: "Poppins",Sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+}
+.Section2-text p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.Section2-text h3{
+	padding: 29px;
+	border-left: 3px solid #3763eb;
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+}
+													/* ---------SECTION3--------- */
+.Section3 h6{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+} 
+.Section3 h2{
+	color: #172541;
+	font-family: "Poppins",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+.Section3 p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.Section3-button{
+	height: 50px;
+	width: 180px;
+	font-size: 15px;
+	font-family: Rubik;
+}
+.Section3 b{
+	color: #172541;
+	font-family: "Poppins",Sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+}
+.Section3 img:hover{
+	transform: translateY(-8px) skewY(2deg);
+}
+													/* ---------SECTION4--------- */
+.Section4-head1{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.Section4-head2{
+	font-family: "Poppins",Sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.Section4-text{
+	position: relative;
+}
+.Section4-text h2{
+	font-family: "Roboto",Sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 40px;
+}
+.Section4-text p{
+	font-family: "Roboto",Sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 26px;
+}
+.Section4-text a{
+	font-size: 15px;
+	font-weight: 600;
+	font-family: "Rubik",sans-serif;
+	text-decoration: none;
+}
+.Section4-img{
+	position: absolute;
+	top: 15%;
+	left: 95%;
+}
+													/* ---------SECTION5--------- */
+.Section5 p{
+	color: #172541;
+	font-family: "Poppins",Sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+}
+													/* ---------SECTION6--------- */
+.Section6{
+	background-image: url(Images/testibg.jpg);
+	background-size: cover;
+}
+.Section6 p{
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.Section6 i{
+	opacity: 0.1;
+}
+.Section6 b{
+	font-family: "Poppins",Sans-serif;
+	font-size: 20px;
+}
+													/* ---------SECTION7--------- */
+.Section7-cards:hover{
+	transform: scale(1.1);
+	box-shadow: 10px 10px #e3e2e2;
+	transition: 1s;
+}
+.Section7 span{
+	font-family: "Rubik",Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.Section7 b{
+	font-family: "Poppins",Sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+.Section7 a{
+	font-family: "Rubik",Sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #576277;
+	text-decoration: none;
+}
+.Section7 a:hover{
+	color: #f3525a;
+}
+													/* ---------SECTION8--------- */
+.Section8{
+	background-image: url(Images/footer_img.png);
+	height: auto;
+}
+.Section8 h2{
+	font-family: "Merriweather",Sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.Section8 h4{
+	color: white;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.Section8 i{
+	color: #8c94b0;
+	font-size: 18px;
+	font-weight: 900;
+	cursor: pointer;
+}
+.Section8 span{
+	color: white;
+	font-family: "Rubik",Sans-serif;
+	line-height: 40px;
+}
+.Section8 i:hover{
+	color: white;
+}
+.Section8 li{
+	color: white;
+	font-family: "Rubik",Sans-serif;
+	line-height: 40px;
+	cursor: pointer;
+}
+.Section8 li:hover{
+	color: #f3525a;
+}
+													/* ---------FOOTER--------- */
+.footer{
+	background-color: #142355;
+}
+.footer p{
+	color: #a5a5a5;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.footer a{
+	color: #a5a5a5;
+	text-decoration: none;
+	font-family: "Rubik",Sans-serif;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+}
+.footer a:hover{
+	color: white;
+}
+
+
+
+													/* ---------ABOUT.HTML--------- */
+													/* ---------COMMON_HEADER--------- */
+.common_header{
+	font-family: "Rubik",Sans-serif;
+}
+.common_header-text{
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+}
+.common_header-icons i{
+	color: white;
+}
+.common_header-icons i:hover{
+	color: #dc3545;
+}
+													/* ---------COMMON_NAVBAR--------- */
+.common_navbar{
+	font-family: "Rubik",Sans-serif;
+}
+.common_navlist a{
+	color: black;
+	text-decoration: none;
+}
+.common_navlist a:hover{
+	color: #dc3545;
+}													
+
+													/* ---------ABOUT-SECTION1--------- */
+													
+.About-Section1{
+	background-image: url(Images/bredcumbs-1.png);
+	background-size: cover;
+	height: auto;
+}
+.About-Section1 h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+													/* ---------ABOUT-SECTION2--------- */
+.About-Section2 h4{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.About-Section2 h6{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	margin-bottom: 20px;
+}
+.About-Section2 h1{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43px;
+}
+.About-Section2 p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.About-Section2-card-static h3{
+	margin-bottom: 16px;
+	margin-top: 16px;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: "Merriweather",Sans-serif;
+}
+.About-Section2-card-static a{
+	text-decoration: none;
+	font-family: "Rubik",Sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 23px;
+}
+.About-Section2-card-static:hover i{
+	animation: shake 0.5s;
+	transition: 1s;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.About-Section2-cards{
+	background-color: #061636;
+}
+.About-Section2-cards h3{
+	margin-bottom: 16px;
+	margin-top: 16px;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+.About-Section2-cards a{
+	text-decoration: none;
+	font-family: "Rubik",Sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 23px;
+	display: none;
+}
+.About-Section2-cards:hover a{
+	display: block;
+}
+.About-Section2-cards:hover i{
+	animation: shake 0.5s;
+	transition: 1s;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+													/* ---------ABOUT-SECTION3--------- */
+.About-Section3{
+	background-image: url(Images/callbg.jpg);
+	background-size: cover;
+	height: auto;
+}
+/* .About-Section3-Duplicate{
+	background-color: #001763;
+	opacity: 0.9;
+	height: auto;
+	top: 0;
+	left: 0;
+} */
+.About-Section3-Inner{
+	padding-top: 5%;
+	padding-bottom: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.About-Section3-Inner h3{
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.About-Section3-Inner h2{
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.About-Section3-Inner span{
+	color: #f3525a;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-decoration: underline;
+	line-height: 48px;
+}
+.About-Section3-Form-A h2{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.About-Section3-Form-A p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px
+}
+.About-Section3-Form-A h3{
+	margin-bottom: 10px;
+	color: #172541;
+    font-family: "Merriweather",Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.About-Section3-Form-Cards:hover img{
+	animation: shake 0.5s;
+	transition: 1s;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.About-Section3-Form-B h2{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.About-Section3-Form-B p{
+	color: #565872;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px
+}
+													/* ---------ABOUT-SECTION4--------- */
+.About-Section4-carousel{
+	cursor: pointer;
+}
+													/* ---------ABOUT-SECTION5--------- */
+.About-Section5{
+	background-image: url(Images/about_us.png);
+	background-size: cover;
+	height: auto;
+}
+.About-Section5 h3{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.About-Section5 h2{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+}
+.About-Section5-Cards{
+	width: 70%;
+}
+.About-Section5-Cards h4{
+	font-size: 20px;
+	line-height: 28px;
+	color: #172541;
+	font-weight: 700;
+	font-family: "Poppins",sans-serif;
+	margin-bottom: 10px;
+}
+.About-Section5-Cards h6{
+	font-size: 13px;
+	line-height: 24px;
+	color: #565872;
+	font-family: "Rubik",sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.About-Section5-Cards a{
+	text-decoration: none;
+}
+.About-Section5-Cards-icons{
+	display: none;
+}
+.About-Section5-Cards:hover .About-Section5-Cards-icons{
+	display: block;	
+}
+.About-Section5-Cards-icon{
+	border-radius: 40px; 
+	padding: 5px;
+	height: 32px;
+	width: 32px;
+}
+.About-Section5-Cards-icon a{
+	color: white;
+}
+													/* ---------ABOUT-SECTION6--------- */
+.About-Section6 p{
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.About-Section6 i{
+	opacity: 0.1;
+}
+.About-Section6 b{
+	font-family: "Poppins",Sans-serif;
+	font-size: 20px;
+}
+													/* ---------CONTACT.HTML--------- */
+													/* ---------CONTACT-SECTION1--------- */
+													
+.Contact-Section1{
+	background-image: url(Images/bredcumbs-1.png);
+	background-size: cover;
+	height: auto;
+}
+.Contact-Section1 h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+													/* ---------CONTACT-SECTION2--------- */
+.Contact-Section2 h3{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.Contact-Section2 h2{
+	color: #1d3977;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43px;
+}
+.Contact-Section2-cards h3{
+	margin-bottom: 7px;
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+}
+.Contact-Section2-cards p{
+	color: #656565;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.Contact-Section2-cards a{
+	text-decoration: none;
+	color: #1d3977;
+	font-size: 15px;
+	font-family: "Rubik",Sans-serif;
+	font-weight: 400;
+}
+.Contact-Section2-cards a:hover{
+	color: #f35454;
+}
+.Contact-Section2 p{
+	color: #1d3977;
+}
+.Contact-Section2 a{
+	text-decoration: none;
+	color: #f35454;
+}
+.Contact-Section2 hr{
+	width: 70%;
+}
+													/* ---------CONTACT-SECTION3--------- */
+.Contact-Section3{
+	background-image: url(Images/contact.jpg);
+	background-size: cover;
+	height: auto;
+}
+.Contact-Section3 h3{
+	color: #f3525a;
+	font-family: "Rubik",Sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.Contact-Section3 h2{
+	color: #172541;
+	font-family: "Merriweather",Sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43px;
+}
+.Contact-Section3-form{
+	width: 90%;
+}
+													/* ---------BLOG.HTML--------- */
+													/* ---------BLOG-SECTION1--------- */
+.Blog-Section1{
+	background-image: url(Images/bredcumbs-1.png);
+	background-size: cover;
+	height: auto;
+}
+.Blog-Section1 h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+}
+													/* ---------BLOG-SECTION2--------- */
+.Blog-Section2-news .date{
+	color: #666;
+	font-size: 18px;
+	font-family: "Rubik";
+	line-height: 26px;
+	font-weight: 400;
+}
+.Blog-Section2-news h2{
+	color: #172541;
+	font-family: "Merriweather";
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+}
+.Blog-Section2-form h3{
+	font-size: 28px;
+	font-weight: 700;
+	color: #172541;
+	line-height: 1.2;
+}
+.Blog-Section2-form a{
+	text-decoration: none;
+	color: #666;
+	font-family: "Rubik";
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.Blog-Section2-form a:hover{
+	color: #f3525a;
+}
